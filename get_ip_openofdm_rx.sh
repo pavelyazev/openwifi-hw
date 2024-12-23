@@ -10,4 +10,7 @@ cd openofdm_rx
 git checkout dot11zynq
 git pull origin dot11zynq
 
+cd ..
+cp -f ./parse_board_name.tcl ./openofdm_rx/
+
 cd $home_dir
